@@ -1,3 +1,20 @@
+Página Agência de Design Digital
+
+O objetivo do projeto é criar uma página com múltiplos componentes e que contenha a funcionalidade de ter o seu tema alterado através da ação do usuário.
+
+A funcionalidade será um evento de clique que será ativado através da ação de um usuário ao clicar no botão no topo da página.
+
+A página será autocontida, ou seja, não haverá navegação para outras páginas (internas ou externas).
+
+A página deve ser compatível com diversos tipos de resolução de telas, por exemplo:
+
+    Desktop (1920px)
+    Laptop (1440px)
+    Tablet (768px)
+    Mobile (375px)
+
+A página terá um efeito interativo conhecido como Dark mode. Basicamente a ideia é mudar o layout para a página se tornar mais agradável de ler a noite. Isso vai acontecer através do clique no botão ícone de lua, posicionado no topo da página. Clicando novamente no botão, a página retorna para seu estado original (light mode).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,0 +1,65 @@
+#card {
+    width: 33%;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#card:hover {
+    background-color: #feb633;
+    transition: all 1s;
+}
+
+#card:hover p {
+    color: #000;
+}
+
+#card h4 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+#card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.card-modo-claro {
+    border: 1px solid #edecec;
+}
+
+.card-modo-claro h4 {
+    color: #32333a;
+}
+
+.card-modo-claro p {
+    color: #8a8fa3;
+}
+
+.card-modo-escuro {
+    border: 1px solid #ffffff0d;
+  }
+  
+.card-modo-escuro h4{
+    color: #ffffff;
+}
+  
+.card-modo-escuro p {
+    color: #9F9F9F;
+}
+
+.primeiroParagrafo {
+    margin-bottom: 5px;
+}
+
+.segundoParagrafo {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    #card {
+        width: auto;
+    }
+}

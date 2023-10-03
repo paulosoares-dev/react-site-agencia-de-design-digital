@@ -1,0 +1,78 @@
+#secaoExpDeTrab {
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao-modo-claro {
+    background-color: #f6f8fc;
+}
+
+.secao-modo-escuro {
+    background-color: #393838;
+}
+
+#container-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#container-texto h2 {
+    position: relative;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+#container-texto h2::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 4px;
+    background-color: #feb633;
+}
+
+#container-texto p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 770px;
+    margin-bottom: 70PX;
+}
+
+.container-texto-modo-claro h2 {
+    color: #32333c;
+}
+
+.container-texto-modo-claro p {
+    color: #8a8fa3;
+}
+
+.container-texto-modo-escuro {
+    color: #CCCCCC;
+}
+
+.container-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.limitar-secao {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container-cards {
+        flex-direction: column;
+    }
+}

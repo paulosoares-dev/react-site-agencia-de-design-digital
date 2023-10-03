@@ -1,0 +1,46 @@
+header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.topo-modo-claro {
+    background-color: #fff;
+}
+
+.topo-modo-escuro {
+    background-color: #252525;
+    border-bottom: 1px solid #ffffff0d;
+}
+
+header img.logo {
+    max-height: 35px;
+}
+
+header button {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    cursor: pointer;    
+}
+
+header button.btn-modo-claro {
+    background-color: #fff;
+    border: 2px solid #747272;
+    border-radius: 25px;
+}
+
+header button.btn-modo-escuro {
+    background-color: #252525;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+header button img.iconesBtn {
+    width: 25px;
+    height: 25px;
+}
